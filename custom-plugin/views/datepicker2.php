@@ -1,0 +1,1 @@
+<p>Date: <input type="text" id="custom_date2" name="custom_date"></p>
