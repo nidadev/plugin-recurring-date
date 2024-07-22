@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Custom Recurring Delivery Date Plugin
-Plugin URI: https://yahoo.com
+Plugin URI: https://github.com/nidadev/plugin-recurring-date
 Description: Developed by nida.
-Version: 1.3.2
+Version: 1.0.0
 */
 
 define("PLUGIN_DIR_PATH", plugin_dir_path(__FILE__));
@@ -56,10 +56,10 @@ function my_add_custom_fields_to_general_tab()
         array(
             'type'  => 'select',
             'id'          => '_my_custom_field_id', // Required, should be unique
-            'label'       => esc_html__('Select Recurring Delivery Date', 'saucal-custom-code'), // Label for the field
-            'placeholder' => esc_html__('Enter a value', 'saucal-custom-code'), // Placeholder text
+            'label'       => esc_html__('Select Recurring Delivery Date', 'my-custom-code'), // Label for the field
+            'placeholder' => esc_html__('Enter a value', 'my-custom-code'), // Placeholder text
             'desc_tip'    => true, // Enable description tooltip
-            'description' => esc_html__('Select Recurring Delivery Date.', 'saucal-custom-code'), // Description for the tooltip
+            'description' => esc_html__('Select Recurring Delivery Date.', 'my-custom-code'), // Description for the tooltip
             'options' => array(
                 '' => 'Select an option',
                 'option_1' => '1st day of every month',
